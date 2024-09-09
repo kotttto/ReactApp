@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Application for moving a goldfish
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a repository for developing applications for moving goldfish in the browser.
 
 ## Available Scripts
 

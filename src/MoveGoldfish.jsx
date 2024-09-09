@@ -12,7 +12,6 @@ export const MoveGoldfish = () => {
   const onClick = (event) => {
     const x = event.clientX; // mouse's x position
     const y = event.clientY; // mouse's y position
-    console.log(`マウス座標 - X: ${x}, Y: ${y}`);
 
     const nextX = x - 150;
     const nextY = y - 150;
@@ -22,7 +21,6 @@ export const MoveGoldfish = () => {
 
     const newAngle =
       Math.atan2(nextY - goldFishY, nextX - goldFishX) * (180 / Math.PI);
-    console.log(nextY - goldFishY, nextX - goldFishX);
 
     setAngle(newAngle);
   };
