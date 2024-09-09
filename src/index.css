@@ -1,4 +1,13 @@
 .aquarium {
-  height: 500px;
-  background-color: aqua;
+  background-color: #bce2e8;
+
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#GoldFish {
+  height: 300px;
+  position: "absolute";
 }
